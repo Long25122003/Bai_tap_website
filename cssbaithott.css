@@ -1,0 +1,72 @@
+.baitho{
+    background-color: aqua;
+    color: aqua;
+    line-height: 30px;
+
+}
+.chude{
+    color: rebeccapurple;
+    font: bold italic small-caps ;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 40px 15px auto;
+    font-variant: small-caps;
+    text-align: center;
+}
+.noidung{
+    text-align: center;
+    font-size: 20px;
+    background-color: yellowgreen;
+    color: black;
+    text-indent: 70px;
+    letter-spacing: 3px;
+    text-decoration: line-through;
+    text-decoration: blink;
+    text-transform: capitalize;
+    
+}
+a:hover{background-color: bisque ; color: red ;
+font-weight: bold;
+}
+
+a:blink{color: aqua;}
+a:tiver{background-color: yellow; color: royalblue;}
+
+a:visited{background-color:blue ; font-size: italic; color: palevioletred; }
+
+
+
+
+.hs{
+    background-color: yellow; color: red;
+}
+.sv{
+    background: rebeccapurple ;color: black;
+}
+
+#ts{
+    background: rebeccapurple ;color: black;
+    
+}
+#hocsinh{
+    font-size: 30px;
+    background-image: url(./Anh/5570.jpg);
+}
+.box{
+
+    width: 130px; height: 30px;
+    border: 1px dashed darkblue ;
+    margin: 10px 15px 10px 350px;
+    padding: 10px 15px 20px 10px;
+    text-align: center;
+    font-size: 35px; 
+}
+.long{
+    width: 700px; height: 500px;
+    border: 1px dashed darkblue ;
+    align-items: center;
+    margin: 20px 15px 20px 15px;
+    padding: 15px 15px 15px 15px ;
+    text-align: center;
+    }

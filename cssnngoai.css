@@ -1,0 +1,46 @@
+body{
+    panding: 20px;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+
+}
+img{
+    width: 350px;
+    height: 170px;
+
+}
+h2{margin-bottom: 0.5em;}
+.girl{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,mimax(300px,1fr));
+    grid-gap: 1em;
+}
+.tytle{
+    position: relative;
+
+}
+.image{
+filter: blur(0px);
+transition: filter 0.3s ease-in;
+transform: scale(1.1);
+float: left;
+}
+.tytle{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute; top: 0; left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: rgba(90, 0,10,0.4);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hoho:hover .tytle{opacity:1;}
+.hoho:hover .image{filter:blur(2px)}
+.page{
+    float: left;
+}
